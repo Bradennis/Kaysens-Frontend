@@ -9,9 +9,9 @@ export function SiteFooter() {
 
   const address = settings
     ? `${settings.address}, ${settings.city}`
-    : "12 Independence Avenue, Airport Residential, Accra";
-  const phone = settings?.phone || "+233 (0) 302 000 000";
-  const email = settings?.email || "hello@kaysensgroup.com";
+    : "Community 1, Tema, opposite Japan Motors";
+  const phone = settings?.phone || "027 640 0000";
+  const email = settings?.email || "kaysensorders@gmail.com";
   const footerTagline = settings?.footerTagline || "Discipline. Integrity. Stewardship.";
   const siteName = settings?.siteName || "Kaysens Group";
   const social = settings?.social || {};
@@ -28,8 +28,8 @@ export function SiteFooter() {
               <span className="text-lg font-semibold tracking-tight text-cream">{siteName}</span>
             </div>
             <p className="max-w-md text-sm leading-relaxed text-cream/60">
-              Headquartered in Accra, Ghana. Building long-term value across distribution,
-              hospitality, energy and strategic ventures.
+Headquartered in Tema, Ghana. Building long-term value across distribution,
+                hospitality, energy and strategic ventures.
             </p>
           </div>
 
